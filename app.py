@@ -1,5 +1,6 @@
 import streamlit as st
 import diffusers
+from diffusers import DiffusionPipeline
 
 # Load the diffusion pipeline
 pipeline = diffusers.DiffusionPipeline.from_pretrained("damo-vilab/text-to-video-ms-1.7b")
